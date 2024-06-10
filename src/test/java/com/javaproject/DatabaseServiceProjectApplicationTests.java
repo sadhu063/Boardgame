@@ -6,7 +6,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-@AutoConfigureMockMv
+@AutoConfigureMockMvc
 class DatabaseServiceProjectApplicationTests {
     @Test
     void contextLoads() {

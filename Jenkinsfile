@@ -1,9 +1,14 @@
 pipeline {    
     agent any 
-   tools {
+
+ 
+     tools {
         maven 'MAVEN3'
-      
+        
     }
+
+    
+
     stages {   
         stage('Compile') {
             steps {

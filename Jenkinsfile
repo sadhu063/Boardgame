@@ -3,6 +3,8 @@ pipeline {
     label 'slave-1'
     }
 
+
+    
  
      tools {
         maven 'MAVEN3'
